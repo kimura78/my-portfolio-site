@@ -4,6 +4,7 @@
     <v-main>
       <Top id="top"/>
       <About id="about"/>
+      <Skills id="skills"/>
     </v-main>
   </v-app>
 </template>
@@ -12,6 +13,7 @@
   import Header from './components/Header.vue';
   import Top from './components/Top.vue';
   import About from './components/About.vue'; 
+  import Skills from './components/Skills.vue';
 
   export default {
     name: 'App',
@@ -19,7 +21,8 @@
     components: {
       Header,
       Top,
-      About
+      About,
+      Skills,
     },
   };
 </script>
