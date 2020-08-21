@@ -2,25 +2,23 @@
   <v-app>
     <Header/>
     <v-main>
-      <h1>MAIN</h1>
+      <Top/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import Header from './components/Header.vue';
+  import Header from './components/Header.vue';
+  import Top from './components/Top.vue';
 
-export default {
-  name: 'App',
+  export default {
+    name: 'App',
 
-  components: {
-    Header,
-  },
-
-  data: () => ({
-    //
-  }),
-};
+    components: {
+      Header,
+      Top
+    },
+  };
 </script>
 
 <style>
