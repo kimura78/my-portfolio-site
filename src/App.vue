@@ -5,6 +5,7 @@
       <Top id="top"/>
       <About id="about"/>
       <Skills id="skills"/>
+      <Workes id="workes"/>
     </v-main>
   </v-app>
 </template>
@@ -14,6 +15,7 @@
   import Top from './components/Top.vue';
   import About from './components/About.vue'; 
   import Skills from './components/Skills.vue';
+  import Workes from './components/Workes.vue';
 
   export default {
     name: 'App',
@@ -23,6 +25,7 @@
       Top,
       About,
       Skills,
+      Workes,
     },
   };
 </script>
