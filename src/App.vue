@@ -1,56 +1,20 @@
 <template>
   <v-app>
-    <v-app-bar
-      app
-      color="primary"
-      dark
-    >
-      <div class="d-flex align-center">
-        <v-img
-          alt="Vuetify Logo"
-          class="shrink mr-2"
-          contain
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-          transition="scale-transition"
-          width="40"
-        />
-
-        <v-img
-          alt="Vuetify Name"
-          class="shrink mt-1 hidden-sm-and-down"
-          contain
-          min-width="100"
-          src="https://cdn.vuetifyjs.com/images/logos/vuetify-name-dark.png"
-          width="100"
-        />
-      </div>
-
-      <v-spacer></v-spacer>
-
-      <v-btn
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-        text
-      >
-        <span class="mr-2">Latest Release</span>
-        <v-icon>mdi-open-in-new</v-icon>
-      </v-btn>
-    </v-app-bar>
-
+    <Header/>
     <v-main>
-      <HelloWorld/>
+      <h1>MAIN</h1>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Header from './components/Header.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Header,
   },
 
   data: () => ({
@@ -58,3 +22,15 @@ export default {
   }),
 };
 </script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+  
+  #app {
+    font-family: 'Recursive', 'M PLUS 1p', sans-serif;
+  }
+  i {
+    font-size: 1.7rem;
+  }
+</style>
