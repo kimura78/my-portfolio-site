@@ -29,7 +29,7 @@
     <v-app-bar dense app>
       <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-btn text v-model="drawer" @click="$vuetify.goTo(0)">TOP</v-btn>
+      <v-btn text @click="$vuetify.goTo(0)">TOP</v-btn>
       <v-btn text @click="$vuetify.goTo(href='#about')">ABOUT</v-btn>
       <v-btn text @click="$vuetify.goTo(href='#skills')">SKILLS</v-btn>
       <v-btn text @click="$vuetify.goTo(href='#workes')">WORKES</v-btn>
@@ -45,17 +45,18 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      menus: [
-        { title: 'Top', icon: 'mdi-home', },
-        { title: 'ABOUT', icon: 'mdi-account', },
-        { title: 'SKILLS', icon: 'mdi-pencil', },
-        { title: 'WORKES', icon: 'mdi-widgets', },
-      ],
-      drawer: false,
-    }
-  },
-}
+
+  export default {
+    data() {
+      return {
+        menus: [
+          { title: 'Top', icon: 'mdi-home', },
+          { title: 'ABOUT', icon: 'mdi-account', },
+          { title: 'SKILLS', icon: 'mdi-pencil', },
+          { title: 'WORKES', icon: 'mdi-widgets', },
+        ],
+        drawer: false,
+      }
+    },
+  }
 </script>

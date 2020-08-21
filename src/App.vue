@@ -2,7 +2,8 @@
   <v-app>
     <Header/>
     <v-main>
-      <Top/>
+      <Top id="top"/>
+      <About id="about"/>
     </v-main>
   </v-app>
 </template>
@@ -10,13 +11,15 @@
 <script>
   import Header from './components/Header.vue';
   import Top from './components/Top.vue';
+  import About from './components/About.vue'; 
 
   export default {
     name: 'App',
 
     components: {
       Header,
-      Top
+      Top,
+      About
     },
   };
 </script>
