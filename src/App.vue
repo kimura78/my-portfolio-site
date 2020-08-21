@@ -2,10 +2,12 @@
   <v-app>
     <Header/>
     <v-main>
-      <Top id="top"/>
-      <About id="about"/>
-      <Skills id="skills"/>
-      <Workes id="workes"/>
+      <v-container>
+        <Top id="top"/>
+        <About id="about"/>
+        <Skills id="skills"/>
+        <Workes id="workes"/>
+      </v-container>
     </v-main>
   </v-app>
 </template>
@@ -38,6 +40,6 @@
     font-family: 'Recursive', 'M PLUS 1p', sans-serif;
   }
   i {
-    font-size: 1.7rem;
+    font-size: 4rem;
   }
 </style>

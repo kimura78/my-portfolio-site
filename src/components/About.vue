@@ -3,6 +3,16 @@
     <h1>About</h1>
     <p>MASANORI KIMURA</p>
     <v-col class="text-center">
+
+      <div>
+        <img src="../assets/profile.png" height="150px">
+        <p></p>
+        <p>主にRuby on Rails・Vue.jsを使って開発をしています</p>
+        <p>現在転職活動中です</p>
+        <v-btn text href="https://github.com/kimura78" class="mt-3">
+          <i class="devicon-github-plain-wordmark"></i>
+        </v-btn>
+      </div>    
       <v-timeline>
         <v-timeline-item
           v-for="(year, i)  in years"
@@ -10,12 +20,6 @@
           large
           :color="year.color">
           
-          <template v-slot:icon>
-            <v-avatar>
-              <img src="../assets/profile.png">
-            </v-avatar>
-          </template>
-
           <template v-slot:opposite>
             <span
               :class="`headline ${year.color}--text`"
@@ -54,7 +58,7 @@
         {
           color: 'blue',
           year: '2020',
-          text: '2020年3月 大学卒業後 転職活動中'
+          text: '2020年3月 獨協大学卒業'
         },
       ],
       }
