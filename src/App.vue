@@ -1,28 +1,45 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <Header/>
+    <v-main>
+      <v-container>
+        <Top id="top"/>
+        <About id="about"/>
+        <Skills id="skills"/>
+        <Workes id="workes"/>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import Header from './components/Header.vue';
+  import Top from './components/Top.vue';
+  import About from './components/About.vue'; 
+  import Skills from './components/Skills.vue';
+  import Workes from './components/Workes.vue';
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  export default {
+    name: 'App',
+
+    components: {
+      Header,
+      Top,
+      About,
+      Skills,
+      Workes,
+    },
+  };
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap');
+  
+  #app {
+    font-family: 'Recursive', 'M PLUS 1p', sans-serif;
+  }
+  i {
+    font-size: 4rem;
+  }
 </style>
