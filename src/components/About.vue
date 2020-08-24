@@ -9,9 +9,10 @@
         <p></p>
         <p>主にRuby on Rails・Vue.jsを使って開発をしています</p>
         <p>現在転職活動中です</p>
-        <v-btn text href="https://github.com/kimura78" class="mt-3">
-          <i class="devicon-github-plain-wordmark"></i>
-        </v-btn>
+        
+        <v-btn text href="https://github.com/kimura78">
+          <i class="github devicon-github-plain-wordmark"></i>
+        </v-btn>  
       </div>    
       <v-timeline>
         <v-timeline-item
@@ -67,4 +68,7 @@
 </script>
 
 <style>
+  .github {
+    font-size: 3rem;
+  }
 </style>
