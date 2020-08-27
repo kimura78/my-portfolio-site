@@ -1,6 +1,6 @@
 <template>
   <v-parallax
-    class="mt-16 animated fadeInDown"
+    class="mt-16"
     dark
     src="../assets/top.png"
   >

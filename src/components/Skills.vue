@@ -22,7 +22,7 @@
             <i class="devicon-javascript-plain colored mr-5 mt-5"></i>
             <div class="skill-text">
               <h3>Javascript</h3>
-              <p>あまり使ってこなかったため、苦手</p>
+              <p>基本的なことはわかる</p>
               <p>もっと勉強していきたい</p>
               <v-rating small readonly v-model="javascript"></v-rating>
             </div>
@@ -49,7 +49,7 @@
             <div class="skill-text">
               <h3>Vue.js</h3>
               <p>このサイトを作った</p>
-              <p>トランジションを使いこなせるようになりたい</p>
+              <p>axiosを使った API + Vueが得意</p>
               <v-rating small readonly v-model="vue"></v-rating>
             </div>
           </v-row>
@@ -62,8 +62,8 @@
             <i class="devicon-docker-plain colored colored mr-5 mt-5"></i>
             <div class="skill-text mr-16">
               <h3>Docker</h3>
+              <p>Dockerfileが書ける</p>
               <p>EC2 + Dockerで開発することが多い</p>
-              <p>サーバーが絡むと難しい・・・</p>
               <v-rating small readonly v-model="docker"></v-rating>
             </div>
           </v-row>
@@ -75,7 +75,7 @@
             <div class="skill-text">
               <h3>AWS</h3>
               <p>EC2/RDS/S3/ACM/IAMなどは使える</p>
-              <p>基本的なことはできる</p>
+              <p>素早くEC2構築からDocker導入までできる</p>
               <v-rating small readonly v-model="aws"></v-rating>
             </div>
           </v-row>
@@ -90,9 +90,9 @@ export default {
   data() {
     return {
       html: 3,
-      javascript: 2,
+      javascript: 3,
       ruby: 4,
-      vue: 3,
+      vue: 4,
       docker: 4,
       aws: 4,
     }
