@@ -8,6 +8,9 @@
         <div class="mx-3">
           <modal2/>
         </div>
+        <div class="mx-3">
+          <modal3/>
+        </div>
       </v-row>
   </v-container>
 </template>
@@ -15,10 +18,14 @@
 <script>
   import Modal1 from '../components/Modal1.vue';
   import Modal2 from '../components/Modal2.vue';
+  import Modal3 from '../components/Modal3.vue';
+
+
   export default {
     components: {
       Modal1,
-      Modal2
+      Modal2,
+      Modal3
     }
   }
 </script>
