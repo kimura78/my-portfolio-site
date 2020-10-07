@@ -7,24 +7,24 @@
       <v-row>
         <div class="mt-10 mx-16">
           <v-row>
-            <i class="devicon-html5-plain colored mr-5 mt-5"></i>
+            <i class="devicon-javascript-plain colored mr-5 mt-5"></i>
             <div class="skill-text">
-              <h3>HTML & CSS</h3>
-              <p>基本は理解している</p>
-              <p>Bootstrap, VuetifyなどのFWを使うことが多い</p>
-              <v-rating small readonly v-model="html"></v-rating>
+              <h3>Javascript</h3>
+              <p>基本的なことはわかるが、書いた量は多くない</p>
+              <p>もっと勉強していきたい</p>
+              <v-rating small readonly v-model="javascript"></v-rating>
             </div>
           </v-row>
         </div>
 
         <div class="vue mt-10 ml-16">
           <v-row>
-            <i class="devicon-javascript-plain colored mr-5 mt-5"></i>
+            <i class="devicon-laravel-plain colored mr-5 mt-5"></i>
             <div class="skill-text">
-              <h3>Javascript</h3>
-              <p>基本的なことはわかる</p>
-              <p>もっと勉強していきたい</p>
-              <v-rating small readonly v-model="javascript"></v-rating>
+              <h3>Laravel</h3>
+              <p>最近使い始めた</p>
+              <p>今後メインで使っていきたい</p>
+              <v-rating small readonly v-model="html"></v-rating>
             </div>
           </v-row>
         </div>  
