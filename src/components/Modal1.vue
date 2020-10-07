@@ -14,6 +14,8 @@
         <div>Ruby on Railsを使って初めて作成した記事投稿型のSNSサービスです。</div>
 
         <div>コメント機能(Ajax)や記事のカテゴリー分けが可能です。</div>
+
+        <p>現在は公開していません。</p>
       </v-card-text>
 
       <v-divider></v-divider>
